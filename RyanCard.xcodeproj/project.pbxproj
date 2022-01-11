@@ -11,6 +11,8 @@
 		838DA0E2278DCBDC007E8E2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DA0E1278DCBDC007E8E2D /* ContentView.swift */; };
 		838DA0E4278DCBDD007E8E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838DA0E3278DCBDD007E8E2D /* Assets.xcassets */; };
 		838DA0E7278DCBDD007E8E2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838DA0E6278DCBDD007E8E2D /* Preview Assets.xcassets */; };
+		838DA0EF278DD006007E8E2D /* Satisfy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 838DA0EE278DD006007E8E2D /* Satisfy-Regular.ttf */; };
+		838DA0F5278DE8D7007E8E2D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DA0F4278DE8D7007E8E2D /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		838DA0E1278DCBDC007E8E2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		838DA0E3278DCBDD007E8E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		838DA0E6278DCBDD007E8E2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		838DA0EE278DD006007E8E2D /* Satisfy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satisfy-Regular.ttf"; sourceTree = "<group>"; };
+		838DA0F4278DE8D7007E8E2D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		838DA0DE278DCBDC007E8E2D /* RyanCard */ = {
 			isa = PBXGroup;
 			children = (
+				838DA0ED278DCFEA007E8E2D /* fonts */,
 				838DA0DF278DCBDC007E8E2D /* RyanCardApp.swift */,
 				838DA0E1278DCBDC007E8E2D /* ContentView.swift */,
+				838DA0F4278DE8D7007E8E2D /* InfoView.swift */,
 				838DA0E3278DCBDD007E8E2D /* Assets.xcassets */,
 				838DA0E5278DCBDD007E8E2D /* Preview Content */,
 			);
@@ -65,6 +71,14 @@
 				838DA0E6278DCBDD007E8E2D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		838DA0ED278DCFEA007E8E2D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				838DA0EE278DD006007E8E2D /* Satisfy-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838DA0EF278DD006007E8E2D /* Satisfy-Regular.ttf in Resources */,
 				838DA0E7278DCBDD007E8E2D /* Preview Assets.xcassets in Resources */,
 				838DA0E4278DCBDD007E8E2D /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				838DA0E2278DCBDC007E8E2D /* ContentView.swift in Sources */,
+				838DA0F5278DE8D7007E8E2D /* InfoView.swift in Sources */,
 				838DA0E0278DCBDC007E8E2D /* RyanCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
